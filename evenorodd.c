@@ -1,16 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int a;
-    scanf("%d",&a);
-    if(a%2==0)
-    {
-     printf("%d is an even value",a);
-
-    }
+    int number;
+    printf("Enter an integer:");
+    scanf("%d",&number);
+    //true if the number is perfectly divisible by 2
+    if(number%2==0)
+     printf("%d is an even.",number);
     else
-    {
-      printf("%d is an odd value",a);
-    }
+      printf("%d is an odd value",number);
     return 0;
-}
+    }
